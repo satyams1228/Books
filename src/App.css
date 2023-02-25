@@ -1,0 +1,19 @@
+ 
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .container {
+  flex-grow: 1;
+}
+
+.App .row {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.App .col {
+  padding: 20px;
+}

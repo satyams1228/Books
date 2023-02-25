@@ -1,0 +1,35 @@
+.book-card {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .book-card .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .book-card .card-img-top {
+    object-fit: cover;
+    height: 250px;
+  }
+  
+  .book-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .book-card .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .book-card .card-text {
+    font-size: 1rem;
+  }
+  
